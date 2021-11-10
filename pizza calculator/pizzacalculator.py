@@ -18,5 +18,6 @@ print('\n')
 #Het overzicht van de bestelling die de gebruiker heeft gemaakt.
 print('|Aantal bestelde small pizza: ' + str(QTYsmall) + '\n' + '|Aantal bestelde medium pizza: ' + str(QTYmedium) + '\n' + '|Aantal bestelde large pizza: ' + str(QTYlarge) + '\n')
 
+#Hier word het totale prijs uitgerekend en op het scherm getoond.
 total = float(QTYsmall*smallPizza + QTYmedium*mediumPizza + QTYlarge*largePizza)
 print('Het totale bedrag = ' + str(total) + ' euro')
